@@ -18,7 +18,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('https://mgnrega-077y.onrender.com/api/mgnrega-data');
+        const response = await axios.get('https://mgnrega-r4ed.onrender.com/api/mgnrega-data');
         setAllData(response.data);
       } catch (err) {
         setError('Could not fetch data from the server. Please try again later.');
