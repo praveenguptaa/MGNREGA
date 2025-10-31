@@ -1,0 +1,68 @@
+/* frontend/src/components/DataCard.css */
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 24px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
+
+.card h2 {
+  font-size: 28px;
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 8px;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 8px;
+}
+
+.card .year {
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.metric {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.metric:last-of-type {
+  border-bottom: none;
+}
+
+.metric .label {
+  font-size: 18px;
+  color: #555;
+}
+
+.metric .value {
+  font-size: 20px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.performance-summary {
+  margin-top: 24px;
+  padding: 16px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.performance-summary h3 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.good { color: #28a745; }
+.average { color: #ffc107; }
+.poor { color: #dc3545; }

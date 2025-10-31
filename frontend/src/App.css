@@ -1,0 +1,62 @@
+/* frontend/src/App.css */
+
+.App {
+  text-align: center;
+  background-color: #f4f7f6;
+  min-height: 100vh;
+  color: #333;
+}
+
+.App-header {
+  background-color: #007bff;
+  padding: 20px;
+  color: white;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.App-header p {
+  margin: 5px 0 0;
+  font-size: 18px;
+}
+
+main {
+  padding: 20px;
+}
+
+.selector-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.selector-container label {
+  margin-right: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#district-select {
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  min-width: 250px;
+}
+
+.status-message {
+  font-size: 20px;
+  color: #555;
+  margin-top: 40px;
+}
+
+.status-message.error {
+  color: #dc3545;
+  font-weight: bold;
+}
